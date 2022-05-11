@@ -14,6 +14,7 @@ const Settings: LayoutSettings & {
   colorWeak: false,
   title: '人流量分析系统',
   pwa: false,
+  footerRender: false,
   logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
   iconfontUrl: '',
 };
