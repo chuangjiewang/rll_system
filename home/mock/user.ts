@@ -45,7 +45,7 @@ export default {
       success: true,
       data: {
         name: 'Admin',
-        avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+        avatar: './af4eb-jt220.svg',
         userid: '00000001',
         /*
         email: 'antdesign@alipay.com',

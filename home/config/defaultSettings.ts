@@ -15,7 +15,7 @@ const Settings: LayoutSettings & {
   title: '人流量分析系统',
   pwa: false,
   footerRender: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: '/af4eb-jt220.svg',
   iconfontUrl: '',
 };
 

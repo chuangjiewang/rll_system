@@ -49,7 +49,7 @@
   */
   {
     name: '实时分析',
-    icon: '',
+    icon: 'PlaySquareFilled',
     path: '/vedio',
     component: './vedio',
   },
