@@ -19,6 +19,7 @@
     icon: 'smile',
     component: './Welcome',
   },
+  /*
   {
     path: '/admin',
     name: 'admin',
@@ -37,11 +38,32 @@
       },
     ],
   },
+  */
+  /*
   {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
     component: './TableList',
+  },
+  */
+  {
+    name: '实时分析',
+    icon: '',
+    path: '/vedio',
+    component: './vedio',
+  },
+  {
+    name: '数据汇总',
+    icon: 'table',
+    path: '/data',
+    component: './data',
+  },
+  {
+    name: '管理系统',
+    icon: 'crown',
+    path: '/admin',
+    component: './admin',
   },
   {
     path: '/',

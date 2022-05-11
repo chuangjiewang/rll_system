@@ -44,9 +44,10 @@ export default {
     res.send({
       success: true,
       data: {
-        name: 'Serati Ma',
+        name: 'Admin',
         avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
         userid: '00000001',
+        /*
         email: 'antdesign@alipay.com',
         signature: '海纳百川，有容乃大',
         title: '交互专家',
@@ -76,7 +77,7 @@ export default {
             key: '5',
             label: '海纳百川',
           },
-        ],
+        ],*/
         notifyCount: 12,
         unreadCount: 11,
         country: 'China',
@@ -96,6 +97,7 @@ export default {
       },
     });
   },
+
   // GET POST 可省略
   'GET /api/users': [
     {
