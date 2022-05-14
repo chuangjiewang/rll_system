@@ -1,4 +1,4 @@
-﻿export default [
+export default [
   {
     path: '/user',
     layout: false,
@@ -19,7 +19,12 @@
     icon: 'smile',
     component: './Welcome',
   },
-  /*
+  {
+    path: '/111',
+    name: '111',
+    icon: 'smile',
+    component: './111',
+  },
   {
     path: '/admin',
     name: 'admin',
@@ -38,32 +43,11 @@
       },
     ],
   },
-  */
-  /*
   {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
     component: './TableList',
-  },
-  */
-  {
-    name: '实时分析',
-    icon: 'PlaySquareFilled',
-    path: '/vedio',
-    component: './vedio',
-  },
-  {
-    name: '数据汇总',
-    icon: 'table',
-    path: '/data',
-    component: './data',
-  },
-  {
-    name: '管理系统',
-    icon: 'crown',
-    path: '/admin_system',
-    component: './admin_system',
   },
   {
     path: '/',
